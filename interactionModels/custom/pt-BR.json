@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "nomeusuario",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "name": "CapturaNomeIntent",
+          "samples": [
+            "bula da {nomeusuario}",
+            "bula do {nomeusuario}"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "bulas nativita"
+    }
+  }
+}
